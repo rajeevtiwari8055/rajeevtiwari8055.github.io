@@ -2,7 +2,7 @@
 
 ---
 
-🌐 [Visit my website](https://rajeevgit8055hub.github.io/rajeevtiwari.github.io)
+🌐 [Visit my website](https://rajeevtiwari8055.github.io/)
 
 
 ## 📑 Table of Contents
