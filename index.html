@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="css/style.css">
 
 <style>
-    
+
 /* GALAXY TWINKLING STAR EFFECT */
 .stars, .stars2, .stars3 {
   position: fixed;
@@ -85,18 +85,18 @@
   right: 20px;
   text-align: right;
   font-family: "Poppins", "Segoe UI", Arial, sans-serif;
-  color: slateblue;
+  color: inherit;
   z-index: 10;
   background: transparent;
 }
 
 .rt-date-time #current-date {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 300;
 }
 
 .rt-date-time #current-time {
-  font-size: 16px;
+  font-size: 12px;
   margin-top: 2px;
   font-weight: 300;
 }
@@ -106,14 +106,14 @@
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 6px 14px;
-    border: 1px solid #00fff2;
+    padding: 5px 10px;
+    border: 1px solid teal;
     border-radius: 50px;
     font-weight: 300;
-    color: #00fff2;
+    color: darkcyan;
     background: transparent;
     width: fit-content;
-    font-size: 18px;
+    font-size: 15px;
   }
 
 /* ⭐ Open to Work Button */
@@ -156,7 +156,7 @@
 
 .btn-project {
   text-decoration: none;
-  background: linear-gradient(135deg, magenta, cyan); /* purple-magenta gradient */
+  background: linear-gradient(135deg, cyan, teal); /* purple-magenta gradient */
   color: black;          
   padding: 12px 20px;
   border-radius: 10px;
@@ -166,7 +166,7 @@
 }
 
 .btn-project:hover {
-  background: linear-gradient(135deg, cyan, magenta); /* darker hover gradient */
+  background: linear-gradient(135deg, teal, cyan); /* darker hover gradient */
   color: black;  
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
@@ -191,71 +191,6 @@
     background: transparent;
   }
   /* web network code end */
-
-      /* About related section */
-      .about-mf .box-shadow-full {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-      }
-
-      .about-mf .about-img {
-        margin-bottom: 2rem;
-      }
-
-      .about-mf .about-img img {
-        margin-left: 10px;
-      }
-
-      .skill-mf .progress {
-        margin: .5rem 0 1.2rem 0;
-        border-radius: 0;
-        height: .7rem;
-      }
-
-      .skill-mf .progress .progress-bar {
-        height: .7rem;
-        background-color: #ffbd39;
-      }
-
-      /* skills related Typing animation */
-      #typing-animation {
-        position: relative;
-        font-size: 30px;
-        font-weight: bold;
-        color: rgb(255, 255, 255);
-        overflow: hidden;
-        white-space: nowrap;
-        animation: typing 3s steps(20, end) infinite;
-      }
-
-      #typing-animation:before {
-        content: "";
-        top: 0;
-        left: 0;
-        width: 0;
-        height: 100%;
-        background-color: #ccc;
-        animation: typing-cursor 0.5s ease-in-out infinite;
-      }
-
-      @keyframes typing {
-        from { width: 0; }
-        to { width: 100%; }
-      }
-
-      @keyframes typing-cursor {
-        from { width: 5px; }
-        to { width: 0; }
-      }
-
-      .zoom-effect {
-        overflow: hidden;
-        transition: transform 0.3s ease-out;
-      }
-
-      .zoom-effect:hover {
-        transform: scale(1.1);
-      }
 
 /* Gradient profile verified name start */
 .name-gradient {
@@ -329,42 +264,42 @@
 
     /* Gradient text styles */
     .nav-gradient-home span {
-      background: linear-gradient(90deg, aqua, red);
+      background: linear-gradient(90deg, #6a5acd, #836fff);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     .nav-gradient-about span {
-      background: linear-gradient(90deg, cyan, fuchsia);
+      background: linear-gradient(90deg, teal, cyan);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     .nav-gradient-skills span {
-      background: linear-gradient(90deg, lime, red);
+      background: linear-gradient(90deg, #2e8b57, springgreen);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     .nav-gradient-resume span {
-      background: linear-gradient(90deg, red, aqua);
+      background: linear-gradient(90deg, purple, #8a2be2);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     .nav-gradient-education span {
-      background: linear-gradient(90deg, mediumslateblue, orangered);
+      background: linear-gradient(90deg, mediumslateblue, #4169e1);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     .nav-gradient-projects span {
-      background: linear-gradient(90deg, purple, lime);
+      background: linear-gradient(90deg, #008b8b, #20b2aa);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     .nav-gradient-Certification span {
-      background: linear-gradient(90deg, red, mediumspringgreen);
+      background: linear-gradient(90deg, #ff1493, #ff69b4);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     .nav-gradient-contact span {
-      background: linear-gradient(90deg, aqua, red);
+      background: linear-gradient(90deg, #9932cc, slateblue);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -372,7 +307,7 @@
 
       /* rajeev tiwari name & hover css */
       .gradient-name {
-        background: linear-gradient(90deg, aqua, mediumslateblue, teal, orangered);
+        background: linear-gradient(90deg, teal, mediumslateblue, teal);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-size: 300% 300%;
@@ -384,15 +319,6 @@
         background-position: right center;
       }
 
-      .gradient-heading {
-        background: linear-gradient(90deg, orange, red, green);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 32px;
-        font-weight: bold;
-        font-style: italic;
-      }
-
       h2 {
         white-space: nowrap;
       }
@@ -402,10 +328,10 @@
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-<!-- GALAXY TWINKLING STAR EFFECT -->
+<!-- GALAXY TWINKLING STAR EFFECT
 <div class="stars"></div>
 <div class="stars2"></div>
-<div class="stars3"></div>
+<div class="stars3"></div>  -->
     
 <!-- Background Neon Particle Canvas starts-->
 <div id="particles-js"></div>
@@ -517,8 +443,7 @@
 
 <!-- Date-Time-Status display -->
 <div class="rt-date-time">
-  <!-- <h5 style="color:slateblue; font-weight:500;">Data Analytics Hub<img src="images/Color Loading.gif" alt="Data" width="45" height="30"></h5> -->
-  <h5 class="da-hub-box">Data Analytics Hub<img src="images/Color Loading.gif" alt="Data" width="40" height="30"></h5>
+  <h5 class="da-hub-box">Data Analytics Hub</h5>
   <div id="current-date"></div>
   <div id="current-time"></div>
 </div>
@@ -567,7 +492,7 @@
 
               <!-- Hi everyone typing start -->
               <h1 style="font-family: 'Aprajita', cursive; font-style: italic; font-size: 25px;">
-                <span id="hi-typing" style="color:cyan;"></span>
+                <span id="hi-typing" style="color:mediumslateblue;"></span>
                 <span style="font-size: 25px;">👋</span>
               </h1>
               <script>
@@ -599,7 +524,7 @@
 
               <!-- Typing Skills start -->
               <span id="typing-animation"
-                style="font-family:'Lucida Handwriting', cursive; font-style:italic; font-weight:300; font-size:24px; background:linear-gradient(90deg, deeppink, aqua, orangered); 
+                style="font-family:'Lucida Handwriting', cursive; font-style:italic; font-weight:300; font-size:24px; background:linear-gradient(90deg, darkcyan, teal); 
                 background-size:200% auto; background-position:0% center; -webkit-background-clip:text; -webkit-text-fill-color:transparent; display:inline-block; transition:background-position 1s ease-in-out;"></span>
 
               <script>
@@ -608,7 +533,7 @@
                   'Microsoft 365 & Access, Excel,       ',
                   'SQL, Power BI, Tableau, ETL, MIS         ',
                   'ChatGPT, DeepSeek, NotebookLLM, Gemini       ',
-                  'Learning:- Excel VBA Programming          ',
+                  'Learning:- Python, n8n Automation          ',
                 ];
                 const typingSpeed = 65;
                 function playTypingAnimation(text) {
@@ -638,11 +563,10 @@
 <!-- front page start -->
 
 <h2>
-  <span class="gradient-heading">Aspiring Data Analyst </span>
+  <span class="gradient-heading">Aspiring Data Analyst</span>
   <span class="normal-emoji"></span>
 </h2>
 
-<!-- linkedin & githut button start -->
 <p>
 <!-- Follow me on LinedIn Start -->   
       <style>
@@ -663,16 +587,14 @@
         }
       </style>
 <a class="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=rajeevtiwari8055" target="_blank">Follow on LinkedIn</a> 
-
-<!-- <a href="https://www.linkedin.com/in/rajeevtiwari8055" class="linkedin-gradient-btn" target="_blank">Linked<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="25" height="25"></a> -->
-<!-- <a href="https://github.com/rajeevtiwari8055" class="github-gradient-btn" target="_blank">GitHub<img src="images/GitViolet.svg" alt="GitHub" width="25" height="25"></a> -->
+    
 <!-- <img src="images/Toys.webp" style="width:100px; height:100px"> -->
 </p>
 
 <style>
   /* Heading Gradient for only text */
   .gradient-heading {
-    background: linear-gradient(90deg, orange,  red, mediumslateblue, teal);
+    background: linear-gradient(90deg, teal, mediumslateblue, darkcyan);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 35px;
@@ -686,42 +608,6 @@
     margin-left: 8px; 
     color: black; 
   }
-
-  /* Buttons Base Style */
-  .linkedin-gradient-btn,
-  .github-gradient-btn {
-    background-size: 200% 100%;
-    background-position: 0% 0%;
-    color: black;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    display: inline-block;
-    transition: background-position 0.5s ease, transform 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-    margin-right: 15px;
-    cursor: pointer;
-  }
-
-  /* LinkedIn Button Gradient */
-  .linkedin-gradient-btn {
-    background: linear-gradient(90deg, aqua, magenta, aqua, magenta);
-  }
-
-  /* GitHub Button Gradient */
-  .github-gradient-btn {
-    background: linear-gradient(90deg, deeppink, orangered, deeppink, orangered);
-  }
-
-  /* Buttons Hover Effects */
-  .linkedin-gradient-btn:hover,
-  .github-gradient-btn:hover {
-    background-position: 100% 0%;
-    transform: scale(1.05);
-  }
 </style>
 <!-- linkedin & githut button end-->
 
@@ -733,11 +619,11 @@
       <div class="col-md-7 heading-section text-center ftco-animate">
         <h1 class="big big-2" style="margin-bottom: 10px;">About me</h1>
         <h2 class="mb-2">
-          <span class="gradient-cyan-fuchsia">About me</span>
+          <span class="gradient-aboutme">About me</span>
           <span><!--👤--><img src="images/Biometric.gif" alt="About me" style="width:70px"></span>
         </h2>
         <p style="margin-bottom: 0;">
-          These are the data skills I’m consistently developing through hands-on practice, real-world projects, and continuous learning.
+          These are the data skills I’m consistently developing through hands-on practice, real-world projects, and continuous learning—while documenting and sharing my journey through Rajeev Dataverse.
         </p>
       </div>
     </div>
@@ -745,13 +631,14 @@
 </section>
 
 <style> 
-  .gradient-cyan-fuchsia {
-    background: linear-gradient(90deg, cyan, fuchsia);
+  .gradient-aboutme {
+    background: linear-gradient(90deg, teal, cyan);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
   }
 </style>
+
 <!-- Detailed About Section with Photo and Skills -->
 <section class="ftco-about img ftco-section ftco-no-pb pt-1" id="" style="padding-top: 10px;">
     <div class="row d-flex align-items-stretch"> 
@@ -776,17 +663,9 @@
         <div class="about-info w-100">
 <br>
           <!-- short intro & About Info -->
-          <p>
-            <span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, deeppink, aqua); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Name : </span><span>Rajeev Tiwari</span>
-          </p>
-          <p>
-            <span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, deeppink, aqua); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Current Status : </span><span>Aspiring Data Analyst</span>
-          </p>
-          <p>
-            <span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, deeppink, aqua); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Learning Phase : </span><span>Actively Building Skills in Python</span>
-          </p>
-          <p>
-            <span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, deeppink, aqua); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Location : </span><span>Prayagraj, India</span>
+          <p><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Name :</span><span> Rajeev Tiwari</span></p>
+          <p><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Learning Phase :</span><span> Actively Building Skills in Python</span></p>
+          <p><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Location :</span><span> Prayagraj, India</span>
           
           <!-- flag logo start-->
           <span>
@@ -840,11 +719,9 @@
 </p>
 <!-- flag logo end -->
 
-<p>
-  <span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, deeppink, aqua); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Email :</span>
+<p><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Email :</span>
   <span>
-    <a href="mailto:rajeevtiwari8055@gmail.com?subject=Hi%20Rajeev&body=I%20visited%20your%20website%20and%20wanted%20to%20connect%20with%20you!"
-       class="email-link">rajeevtiwari8055@gmail.com</a>
+    <a href="mailto:rajeevtiwari8055@gmail.com?subject=Hi%20Rajeev&body=I%20visited%20your%20website%20and%20wanted%20to%20connect%20with%20you!" class="email-link">rajeevtiwari8055@gmail.com</a>
   </span>
 </p>
 
@@ -863,10 +740,9 @@
 </style>
     
 <!-- Skill Summary Container -->
-<div
-  style="font-family: Arial, sans-serif; color: aqua; line-height: 1.6; font-size: 16px; max-width: 700px; transition: color 0.3s; margin-top: 20px;"
-  onmouseover="this.style.color='cyan'"
-  onmouseout="this.style.color='teal'">
+<div style="font-family: Arial, sans-serif; color: inherit; line-height: 1.6; font-size: 16px; max-width: 700px; transition: color 0.3s; margin-top: 20px;" 
+  onmouseover="this.style.color='teal'"
+  onmouseout="this.style.color='inherit'">
   <p style="margin-bottom: 8px; font-size: 16px;">
      I'm a passionate data enthusiast, currently an expert in Microsoft 365 &amp; SQL, Advanced Excel, including Excel MIS, Power Query, Power Pivot, Power BI, Tableau &amp; Microsoft Access.
   </p>
@@ -880,20 +756,22 @@
     With a strong interest in data and analytics, I constantly seek new ways to grow, improve, and contribute to impactful projects.
   </p>
   
-  <p style="color: #2e8b57; font-style: italic; font-weight: 500; font-size: 20px; font-family: cursive; margin-top: 0; pointer-events: none;">
+  <p style="color: #2e8b57; font-style: italic; font-weight: 500; font-size: 20px; font-family: cursive; margin-top: 0;">
     🌱 Always learning, always exploring!
+     <a href="https://www.linkedin.com/in/rajeevtiwari8055" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20" height="20"></a>
+     <a href="https://github.com/rajeevtiwari8055" target="_blank"><img src="images/GitViolet.svg" alt="GitHub" width="25" height="22"></a>
   </p>
 </div>
-       <!-- Detailed Skills List -->
+       <!-- Detailed Skills -->
          <ul class="about-info mt-4 px-md-0 px-2">
-            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, aqua, deeppink); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Profile : </span><span>Learning to Transform Data into Actionable Stories</span></li>
-            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, aqua, deeppink); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Domain : </span><span>Business Intelligence, Data Analytics, MIS Reporting</span></li>
-            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, aqua, deeppink); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Education : </span><span>Master of Arts - MA, University of Allahabad</span></li>
-            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, aqua, deeppink); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Language : </span><span>English, Hindi</span></li>
-            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, aqua, deeppink); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Data Tools : </span><span>SQL, Advanced Excel, Power BI, Tableau, Microsoft 365 & Access</span></li>
-            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, aqua, deeppink); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Skills : </span><span>MIS, Power Query, Power Pivot, Data Visualization, Data Cleaning & Transformation</span></li>
-       <!-- <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, aqua, deeppink); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Pending : </span><span>Python</span></li> -->
-            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, aqua, deeppink); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Interest: </span><span>Continuous learning, experimenting with data & code</span></li>
+            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Founder:</span><span><a href="https://www.linkedin.com/company/rajeev-dataverse/" class="email-link" target="_blank" class="dataverse-link">Rajeev Dataverse</a></span></li>
+            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Domain:</span><span>Business Intelligence, Data Analytics, MIS Reporting</span></li>
+            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Automation:</span><span>n8n Automation, Workflows, AI Agents & AI-Assisted Analytics</span></li>
+            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Data Tools:</span><span>SQL, Advanced Excel, Power BI, Tableau, Microsoft 365 & Access</span></li>
+            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Skills:</span><span>MIS, Power Query, Power Pivot, Data Visualization, Data Cleaning & Transformation</span></li>
+            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Education:</span><span>Master of Arts - MA, University of Allahabad</span></li>
+            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Language:</span><span>English, Hindi</span></li>
+            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Interest:</span><span>Continuous learning, experimenting with data & code</span></li>
           </ul>
         </div>
       </div>
@@ -908,9 +786,9 @@
   <div class="container">
     <div class="row justify-content-center mb-3 pb-2">
       <div class="col-md-7 heading-section text-center ftco-animate">
-        <h1 class="big big-2">Skills & Tools</h1>
+        <h1 class="big big-2">Skills</h1>
         <h2 class="mb-3">
-          <span class="gradient-lime-red">Skills & Tools</span>
+          <span class="gradient-skills">Skills & Tools</span>
           <span class="normal-color"><!--💻⚙️--><img src="images/Thinking.gif" alt="Skills" style="width:70px"></span>
         </h2>
         <p>These are some of the skills I've been learning & gradually improving through practice and real-world applications.</p>
@@ -929,28 +807,28 @@
 <section class="skill-section-container">
   <div class="skills-grid">
     <!-- 1st Row (8 skills) -->
-    <div class="skill-item"><img src="images/Microsoft365.svg" alt="Microsoft 365"><div class="skill-name">Microsoft 365</div></div>
-    <div class="skill-item"><img src="images/Excel.svg" alt="Excel"><div class="skill-name">Excel</div></div>
-    <div class="skill-item"><img src="images/Power Query.svg" alt="Power Query"><div class="skill-name">Power Query</div></div>
-    <div class="skill-item"><img src="images/Power Pivot.svg" alt="Power Pivot"><div class="skill-name">Power Pivot</div></div>
+    <div class="skill-item"><img src="images/Microsoft365.svg" alt="Microsoft 365"><div class="skill-name" style="color: inherit">Microsoft 365</div></div>
+    <div class="skill-item"><img src="images/Excel.svg" alt="Excel"><div class="skill-name" style="color: inherit">Excel</div></div>
+    <div class="skill-item"><img src="images/Power Query.svg" alt="Power Query"><div class="skill-name" style="color: inherit">Power Query</div></div>
+    <div class="skill-item"><img src="images/Power Pivot.svg" alt="Power Pivot"><div class="skill-name" style="color: inherit">Power Pivot</div></div>
     <!--  <div class="skill-item"><img src="images/Word.svg" alt="Word"><div class="skill-name">Word</div></div>
     <div class="skill-item"><img src="images/PowerPoint.svg" alt="Power Point"><div class="skill-name">Power Point</div></div> -->
    
     <!-- 2nd Row (8 skills) -->
-    <div class="skill-item"><img src="images/MIS.svg" alt="MIS Reporting"><div class="skill-name">MIS Reporting</div></div>
-    <div class="skill-item"><img src="images/Access.svg" alt="Access"><div class="skill-name">Access</div></div>
-    <div class="skill-item"><img src="images/Tableau.svg" alt="Tableau"><div class="skill-name">Tableau</div></div>
-    <div class="skill-item"><img src="images/SQL.svg" alt="SQL"><div class="skill-name">SQL</div></div>
+    <div class="skill-item"><img src="images/MIS.svg" alt="MIS Reporting"><div class="skill-name" style="color: inherit">MIS Reporting</div></div>
+    <div class="skill-item"><img src="images/Access.svg" alt="Access"><div class="skill-name" style="color: inherit">Access</div></div>
+    <div class="skill-item"><img src="images/Tableau.svg" alt="Tableau"><div class="skill-name" style="color: inherit">Tableau</div></div>
+    <div class="skill-item"><img src="images/SQL.svg" alt="SQL"><div class="skill-name" style="color: inherit">SQL</div></div>
     <!-- <div class="skill-item"><img src="images/Outlook.svg" alt="Outlook"><div class="skill-name">Outlook</div></div>
     <div class="skill-item"><img src="images/Publisher.svg" alt="Publisher"><div class="skill-name">Publisher</div></div>
     <div class="skill-item"><img src="images/OneNote.svg" alt="OneNote"><div class="skill-name">OneNote</div></div>
     <div class="skill-item"><img src="images/PostgreSQL.svg" alt="PostgreSQL"><div class="skill-name">PostgreSQL</div></div> -->
     
     <!-- 3rd Row (8 skills) -->
-    <div class="skill-item"><img src="images/Power BI.svg" alt="Power BI"><div class="skill-name">Power BI</div></div>
-    <div class="skill-item"><img src="images/OpenAI.svg" alt="Open AI"><div class="skill-name">Open AI</div></div>
-    <div class="skill-item"><img src="images/Google Sheets.svg" alt="Google Sheets"><div class="skill-name">Google Sheets</div></div>
-    <div class="skill-item"><img src="images/Python.svg" alt="Python"><div class="skill-name">Python</div><div class="skill-level">currently Learning</div></div>
+    <div class="skill-item"><img src="images/Power BI.svg" alt="Power BI"><div class="skill-name" style="color: inherit">Power BI</div></div>
+    <div class="skill-item"><img src="images/OpenAI.svg" alt="Open AI"><div class="skill-name" style="color: inherit">Open AI</div></div>
+    <div class="skill-item"><img src="images/Google Sheets.svg" alt="Google Sheets"><div class="skill-name" style="color: inherit">Google Sheets</div></div>
+    <div class="skill-item"><img src="images/Python.svg" alt="Python"><div class="skill-name" style="color: inherit">Python</div><div class="skill-level">currently Learning</div></div>
     <!-- <div class="skill-item"><img src="images/Canva.svg" alt="Canva"><div class="skill-name">Canva</div></div>
     <div class="skill-item"><img src="images/HTML5.svg" alt="HTML5"><div class="skill-name">HTML5</div></div>
     <div class="skill-item"><img src="images/CSS.svg" alt="CSS"><div class="skill-name">CSS</div></div>
@@ -964,8 +842,8 @@
 <!-- Skill Styles CSS -->
 <style>
   /* Gradient text (optional use) */
-  .gradient-lime-red {
-    background: linear-gradient(90deg, lime, red);
+  .gradient-skills {
+    background: linear-gradient(90deg, #2e8b57, springgreen);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -1062,6 +940,7 @@
   <img src="images/CSS.svg" alt="CSS">
   <!-- <img src="images/VBA.png" alt="VBA"> 
   <img src="images/Jira.svg" alt="Git"> -->
+  <img src="images/n8n.png" alt="Git">
   <img src="images/Git.svg" alt="Git">
   <img src="images/Gitcolor.png" alt="Gitcolor">
   <img src="images/Office_365.svg" alt="Office_365">
@@ -1084,7 +963,7 @@
       <div class="col-md-10 heading-section text-center ftco-animate">
         <h1 class="big big-2">Resume</h1>
         <h2 class="mb-4">
-          <span class="gradient-red-aqua">Resume</span>
+          <span class="gradient-resume">Resume</span>
           <span class="normal-color"><!--📝--><img src="images/Repo.gif" alt="Resume" style="width:70px"></span>
         </h2>
         <p>My resume showcases my skills, projects and learning journey in Data Analysis and Computer Science, 
@@ -1110,33 +989,21 @@
 <style>
   /* Button styles unchanged */
   .btn.download-cv-btn {
-    display: inline-block;
-    padding: 12px 28px;
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    border: none;
-    border-radius: 10px;
-    color: black;
-    background: linear-gradient(90deg, aqua, magenta, orangered, teal);
-    background-size: 200% 200%;
-    transition: background 0.6s ease, transform 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
+  text-decoration: none;
+  background: linear-gradient(135deg, cyan, teal); /* purple-magenta gradient */
+  color: black;          
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
 
   .btn.download-cv-btn:hover {
-    background: linear-gradient(
-      270deg,
-      aqua,
-      deeppink,
-      teal,
-      orangered
-    );
-    background-size: 600% 600%;
-    animation: gradientMove 6s ease infinite;
-    transform: scale(1.05);
-    color: black;
-  }
+  background: linear-gradient(135deg, teal, cyan); /* darker hover gradient */
+  color: black;  
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
 
   @keyframes gradientMove {
     0% {
@@ -1159,41 +1026,41 @@
       <div class="col-md-7 heading-section text-center ftco-animate">
         <h1 class="big big-2">Experience</h1>
         <h2 class="mb-3">
-          <span class="gradient-exp">Experience</span>
+          <span class="gradient-experience">Experience</span>
           <span class="normal-color"><!--💼--> <img src="images/Rocket.gif" alt="Experience" style="width:70px"></span>
         </h2>
-        <p>I have worked in the Data Analytics domain through personal projects, building strong skills in data cleaning, visualization, and dashboard development.</p>
+        <p>Hands-on experience in Data Analytics gained through personal projects, Click on Personal Projects & Rajeev Dataverse to explore my work and practical experience.</p>
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-6">
         <div class="resume-wrap ftco-animate">
-          <span class="date">2024 - Present</span>
+          <span class="date" style="color:inherit">2024 - Present</span>
           <h2>Data Analytics: Project Experience</h2>
           <span class="position">
-          <a href="https://www.linkedin.com/in/rajeevtiwari8055/details/projects/" target="_blank" style="color: #007bff; text-decoration: none; font-size: 1rem;">Personal Projects</a>
+          <a href="https://www.linkedin.com/in/rajeevtiwari8055/details/projects/" target="_blank" class="hover-blue" style="color:inherit; font-size: 1rem;">Personal Projects</a>
         </span>
           <p class="mt-4">Executed data analytics projects with cleaning, visualization, dashboards & reporting using Excel, Power Query, SQL, Power BI & 
             Tableau, while creating web projects.
           </p>
           <span style="font-weight: 600; color: inherit; font-size: 1rem;">Responsibilities / Work Highlights:</span>
            <ul>
-             <li><span style="color:#007bff; font-size:18px;">✔</span> Completed end-to-end data analytics projects delivering business insights</li>
-             <li><span style="color:#007bff; font-size:18px;">✔</span> Performed data cleaning, transformation & visualization using Excel, Power Query & SQL</li>
-             <li><span style="color:#007bff; font-size:18px;">✔</span> Developed dashboards & automated reports in Power BI, Tableau & Access</li>
-             <li><span style="color:#007bff; font-size:18px;">✔</span> Designed web projects using HTML, CSS & JavaScript for portfolio development</li>
-             <li><span style="color:#007bff; font-size:18px;">✔</span> Enhanced storytelling, documentation & business presentation skills using Microsoft 365</li>
+             <li><span style="color:#1a73e8; font-size:18px;">✔</span> Completed end-to-end data analytics projects delivering business insights</li>
+             <li><span style="color:#1a73e8; font-size:18px;">✔</span> Performed data cleaning, transformation & visualization using Excel, Power Query & SQL</li>
+             <li><span style="color:#1a73e8; font-size:18px;">✔</span> Developed dashboards & automated reports in Power BI, Tableau & Access</li>
+             <li><span style="color:#1a73e8; font-size:18px;">✔</span> Designed web projects using HTML, CSS & JavaScript for portfolio development</li>
+             <li><span style="color:#1a73e8; font-size:18px;">✔</span> Enhanced storytelling, documentation & business presentation skills using Microsoft 365</li>
            </ul>
         </div>
       </div>
 
     <div class="col-md-6">
        <div class="resume-wrap ftco-animate">
-         <span class="date">2026 - Present</span>
+         <span class="date" style="color:inherit">2026 - Present</span>
           <h2>Founder & Content Creator</h2>
           <span class="position">
-           <a href="https://www.linkedin.com/company/rajeev-dataverse/" target="_blank" style="color: #007bff; text-decoration: none; font-size: 1rem;">Rajeev Dataverse</a>
+           <a href="https://www.linkedin.com/company/rajeev-dataverse/" target="_blank" class="hover-blue" style="color:inherit; font-size: 1rem;">Rajeev Dataverse</a>
           </span>
           <p class="mt-4">Founder of a self-initiated learning platform on Data Analytics, Automation & BI. 
             I create and share content while building and engaging a community of learners.
@@ -1215,15 +1082,15 @@
 
 <!-- Gradient Style & css for Resume & Experience Headings -->
 <style>
-  .gradient-red-aqua {
-    background: linear-gradient(90deg, red, aqua);
+  .gradient-resume {
+    background: linear-gradient(90deg, purple, #8a2be2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
   }
 
-  .gradient-exp {
-    background: linear-gradient(90deg, teal, orangered);
+  .gradient-experience {
+    background: linear-gradient(90deg, slateblue, mediumslateblue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -1234,6 +1101,12 @@
     font-size: inherit;
     margin-left: 4px;
   }
+
+    /* inherit blue */
+ .hover-blue:hover {
+  color: #1a73e8 !important;
+  text-decoration: underline;
+}
 </style>
 <!-- Resume & Experience Section end -->
 
@@ -1244,7 +1117,7 @@
       <div class="col-md-7 heading-section text-center ftco-animate">
         <h1 class="big big-2">Education</h1>
         <h2 class="mb-3">
-          <span class="gradient-mediumslateblue-orangered">Education</span>
+          <span class="gradient-education">Education</span>
           <span class="normal-color"><!--🏫--><img src="images/Working Boy.gif" alt="Education" style="width:70px"></span>
         </h2>
         <p>
@@ -1263,7 +1136,7 @@
             <span class="normal-color">🎓</span>
           </h2>
           <span class="position text-uni updated-uni">University of Allahabad</span>
-          <p class="mt-4 white-grade">Grade: First class distinction.</p>
+          <p class="mt-4 white-grade" style="color:inherit;">Grade: First class distinction.</p>
         </div>
       </div>
 
@@ -1276,7 +1149,7 @@
             <span class="normal-color">🎓</span>
           </h2>
           <span class="position text-uni updated-uni">University of Allahabad</span>
-          <p class="mt-4 white-grade">Grade: First class distinction.</p>
+          <p class="mt-4 white-grade" style="color:inherit">Grade: First class distinction.</p>
         </div>
       </div>
 
@@ -1289,7 +1162,7 @@
             <span class="normal-color">📚</span>
           </h2>
           <span class="position text-college updated-college">Ganga Bal Vidya Mandir Inter College</span>
-          <p class="mt-4 white-grade">Grade: First class distinction.</p>
+          <p class="mt-4 white-grade" style="color:inherit">Grade: First class distinction.</p>
         </div>
       </div>
 
@@ -1302,7 +1175,7 @@
             <span class="normal-color">📚</span>
           </h2>
           <span class="position text-college updated-college">Ganga Bal Vidya Mandir Inter College</span>
-          <p class="mt-4 white-grade">Grade: First class distinction.</p>
+          <p class="mt-4 white-grade" style="color:inherit">Grade: First class distinction.</p>
         </div>
       </div>
       
@@ -1312,8 +1185,8 @@
 
 <!-- education box Styles -->
 <style>
-  .gradient-mediumslateblue-orangered {
-    background: linear-gradient(90deg, mediumslateblue, orangered);
+  .gradient-education {
+    background: linear-gradient(90deg, mediumslateblue, #4169e1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -1341,7 +1214,7 @@
   }
 
   .gradient-heading-ma {
-    background: linear-gradient(90deg, aqua, mediumslateblue);
+    background: linear-gradient(90deg, mediumslateblue, teal);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -1353,7 +1226,7 @@
   }
 
   .gradient-heading-hs {
-    background: linear-gradient(90deg, deeppink, aqua);
+    background: linear-gradient(90deg, teal, cyan);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -1365,7 +1238,7 @@
   }
 
   .text-uni {
-    color: mediumslateblue;
+    color: teal;
     display: block;
     margin-top: 8px;
   }
@@ -1376,7 +1249,7 @@
   }
 
   .text-college {
-    color: cyan;
+    color: teal;
     display: block;
     margin-top: 8px;
   }
@@ -1427,7 +1300,7 @@
       <div class="col-md-7 heading-section text-center ftco-animate">
         <h1 class="big big-2">Projects</h1>
         <h2 class="mb-4">
-          <span class="gradient-indigo-lime">Projects</span>
+          <span class="gradient-projects">Projects</span>
           <span class="normal-color"><!--🚀--><img src="images/Project_in.gif" alt="Projects" style="width:65px"></span>
         </h2>
         <p>
@@ -1442,10 +1315,10 @@
       <!-- Online Bookstore SQL Data Analysis -->
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry justify-content-end">
-          <a href="https://github.com/rajeevtiwari8055/SQL-Project-on-Online-Book-store" class="block-20 zoom-effect" style="background-image: url('images/Bookstore.png'); height: 250px; background-size: cover; background-position: center;"></a>
+          <a href="https://github.com/rajeevtiwari8055/SQL-Project-on-Online-Book-store" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/Bookstore.png'); height: 250px; background-size: cover; background-position: center;"></a>
           <div class="text mt-3 float-right d-block">
             <h3 class="heading">
-              <a href="https://github.com/rajeevtiwari8055/SQL-Project-on-Online-Book-store">Online Bookstore SQL Data Analysis — <span style="color: #007bff; font-size: 16px;">View Repository↗</span></a>
+              <a href="https://github.com/rajeevtiwari8055/SQL-Project-on-Online-Book-store" style="color:gray" target="_blank" style="text-decoration: none;">Online Bookstore SQL Data Analysis — <span class="hover-blue" style="color:inherit; font-size: 16px;">View Repository↗</span></a>
             </h3>
             <p>A complete SQL-based data analysis project on a fictional online bookstore using PostgreSQL. This project demonstrates 
               how to clean, query, and analyze real-world datasets to extract business insights such as sales trends, revenue, 
@@ -1458,10 +1331,10 @@
       <!-- Cleaned & Refined Messy Rows Dataset -->
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry justify-content-end">
-          <a href="https://github.com/rajeevtiwari8055/Power-Query-Projects" class="block-20 zoom-effect" style="background-image: url('images/Power Query.jpg'); height: 250px; background-size: cover; background-position: center;"></a>
+          <a href="https://github.com/rajeevtiwari8055/Power-Query-Projects" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/Power Query.jpg'); height: 250px; background-size: cover; background-position: center;"></a>
           <div class="text mt-3 float-right d-block">
             <h3 class="heading">
-              <a href="https://github.com/rajeevtiwari8055/Power-Query-Projects">Cleaned & Refined Messy Rows Dataset — <span style="color: #007bff; font-size: 16px;">View Repository↗</span></a>
+              <a href="https://github.com/rajeevtiwari8055/Power-Query-Projects" style="color:gray" target="_blank" style="text-decoration: none;">Cleaned & Refined Messy Rows Dataset — <span class="hover-blue" style="color:inherit; font-size: 16px;">View Repository↗</span></a>
             </h3>
             <p>This Power Query project focused on cleaning and transforming messy, unstructured business data efficiently and
                effectively. It involved fixing duplicate columns, merged fields, and null values. Techniques like column splitting 
@@ -1474,10 +1347,10 @@
       <!-- Hospital Emergency Room Dashboard -->
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry justify-content-end">
-          <a href="https://github.com/rajeevtiwari8055/Hospital-Emergency-Room-Dashboard" class="block-20 zoom-effect" style="background-image: url('images/MIS Projects.jpg'); height: 250px; background-size: cover; background-position: center;"></a>
+          <a href="https://github.com/rajeevtiwari8055/Hospital-Emergency-Room-Dashboard" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/MIS Projects.jpg'); height: 250px; background-size: cover; background-position: center;"></a>
           <div class="text mt-3 float-right d-block">
             <h3 class="heading">
-              <a href="https://github.com/rajeevtiwari8055/Hospital-Emergency-Room-Dashboard">Hospital Emergency Room Dashboard — <span style="color: #007bff; font-size: 16px;">View Repository↗</span></a>
+              <a href="https://github.com/rajeevtiwari8055/Hospital-Emergency-Room-Dashboard" style="color:gray" target="_blank" style="text-decoration: none;">Hospital Emergency Room Dashboard — <span class="hover-blue" style="color:inherit; font-size: 16px;">View Repository↗</span></a>
             </h3>
             <p>My first Excel MIS Dashboard project analyzing Hospital ER performance. Built using Excel tools like Pivot Tables, 
               Sparklines, Conditional Formatting, and Charts to track patient count, wait times, referrals, etc. It also helps identify
@@ -1490,10 +1363,10 @@
       <!-- SmartBite – Online Food Delivery DBMS -->
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry justify-content-end">
-          <a href="https://github.com/rajeevtiwari8055/SmartBite-Online-Food-Delivery-DBMS" class="block-20 zoom-effect" style="background-image: url('images/SmartBite- Online Food Delivery.png'); height: 250px; background-size: cover; background-position: center;"></a>
+          <a href="https://github.com/rajeevtiwari8055/SmartBite-Online-Food-Delivery-DBMS" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/SmartBite- Online Food Delivery.png'); height: 250px; background-size: cover; background-position: center;"></a>
           <div class="text mt-3 float-right d-block">
             <h3 class="heading">
-              <a href="https://github.com/rajeevtiwari8055/SmartBite-Online-Food-Delivery-DBMS">🍽️ SmartBite – Online Food Delivery DBMS — <span style="color: #007bff; font-size: 16px;">View Repository↗</span></a>
+              <a href="https://github.com/rajeevtiwari8055/SmartBite-Online-Food-Delivery-DBMS" style="color:gray" target="_blank" style="text-decoration: none;">🍽️ SmartBite – Online Food Delivery DBMS — <span class="hover-blue" style="color:inherit; font-size: 16px;">View Repository↗</span></a>
             </h3>
             <p>A complete company-level online food delivery database system fully built in Microsoft Access.
                 It manages real restaurant orders, customers, payments, cancellations, and revenue analytics.
@@ -1506,10 +1379,10 @@
       <!-- Executive Business Presentation Vault -->
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry justify-content-end">
-          <a href="https://github.com/rajeevtiwari8055/Executive-Business-Presentation-Vault" class="block-20 zoom-effect" style="background-image: url('images/Business\ Decks.jpg'); height: 250px; background-size: cover; background-position: center;"></a>
+          <a href="https://github.com/rajeevtiwari8055/Executive-Business-Presentation-Vault" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/Business\ Decks.jpg'); height: 250px; background-size: cover; background-position: center;"></a>
           <div class="text mt-3 float-right d-block">
             <h3 class="heading">
-              <a href="https://github.com/rajeevtiwari8055/Executive-Business-Presentation-Vault">Executive Business Presentation Vault — <span style="color: #007bff; font-size: 16px;">View Repository↗</span></a>
+              <a href="https://github.com/rajeevtiwari8055/Executive-Business-Presentation-Vault" style="color:gray" target="_blank" style="text-decoration: none;">Executive Business Presentation Vault — <span class="hover-blue" style="color:inherit; font-size: 16px;">View Repository↗</span></a>
             </h3>
             <p>This repository is a curated collection of Executive Business Presentation Vault built from real analytics projects.
                Each deck represents a complete story — transforming raw data and dashboards into executive-level narratives.
@@ -1522,10 +1395,10 @@
     <!-- Retail Sales Dashboard – MIS Project --> 
     <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry justify-content-end">
-          <a href="https://github.com/rajeevtiwari8055/Retail-Sales-Dashboard-Analysis" class="block-20 zoom-effect" style="background-image: url('images/Retail.jpg'); height: 250px; background-size: cover; background-position: center;"></a>
+          <a href="https://github.com/rajeevtiwari8055/Retail-Sales-Dashboard-Analysis" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/Retail.jpg'); height: 250px; background-size: cover; background-position: center;"></a>
           <div class="text mt-3 float-right d-block">
             <h3 class="heading">
-              <a href="https://github.com/rajeevtiwari8055/Retail-Sales-Dashboard-Analysis">Retail Sales Dashboard – MIS Project — <span style="color: #007bff; font-size: 16px;">View Repository↗</span></a>
+              <a href="https://github.com/rajeevtiwari8055/Retail-Sales-Dashboard-Analysis" style="color:gray" target="_blank" style="text-decoration: none;">Retail Sales Dashboard – MIS Project — <span class="hover-blue" style="color:inherit; font-size: 16px;">View Repository↗</span></a>
             </h3>
             <p>Retail Sales Dashboard built in Excel using Power Query, Pivot Tables, and Map Charts. This project analyzes a 5000-row
                retail dataset to solve real-world business problems through dynamic, slicer-controlled visual insights. It simulates a
@@ -1538,10 +1411,10 @@
       <!-- Nescafe – Driving Coffee Sales Dashboard -->
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry justify-content-end">
-          <a href="https://github.com/rajeevtiwari8055/Nescafe-Driving-Coffee-Sales-Excellence" class="block-20 zoom-effect" style="background-image: url('images/Coffee.png'); height: 250px; background-size: cover; background-position: center;"></a>
+          <a href="https://github.com/rajeevtiwari8055/Nescafe-Driving-Coffee-Sales-Excellence" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/Coffee.png'); height: 250px; background-size: cover; background-position: center;"></a>
           <div class="text mt-3 float-right d-block">
             <h3 class="heading">
-              <a href="https://github.com/rajeevtiwari8055/Nescafe-Driving-Coffee-Sales-Excellence">Nescafe – Driving Coffee Sales Dashboard — <span style="color: #007bff; font-size: 16px;">View Repository↗</span></a>
+              <a href="https://github.com/rajeevtiwari8055/Nescafe-Driving-Coffee-Sales-Excellence" style="color:gray" target="_blank" style="text-decoration: none;">Nescafe – Driving Coffee Sales Dashboard — <span class="hover-blue" style="color:inherit; font-size: 16px;">View Repository↗</span></a>
             </h3>
             <p>Analyzed 118.94K Nescafe sales (April 2023) using Power BI to uncover trends in product performance, store contributions, 
               and customer behavior. Identified peak sales hours, weekday vs weekend patterns, and top-performing categories. Provided 
@@ -1554,10 +1427,10 @@
       <!-- Motorola Sales Dashboard Analysis -->
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry justify-content-end">
-          <a href="https://github.com/rajeevtiwari8055/Motorola-Sales-BI-Dashboard-Analysis" class="block-20 zoom-effect" style="background-image: url('images/Motorola\ BI.png'); height: 250px; background-size: cover; background-position: center;"></a>
+          <a href="https://github.com/rajeevtiwari8055/Motorola-Sales-BI-Dashboard-Analysis" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/Motorola\ BI.png'); height: 250px; background-size: cover; background-position: center;"></a>
           <div class="text mt-3 float-right d-block">
             <h3 class="heading">
-              <a href="https://github.com/rajeevtiwari8055/Motorola-Sales-BI-Dashboard-Analysis">Motorola Sales Dashboard Analysis — <span style="color: #007bff; font-size: 16px;">View Repository↗</span></a>
+              <a href="https://github.com/rajeevtiwari8055/Motorola-Sales-BI-Dashboard-Analysis" style="color:gray" target="_blank" style="text-decoration: none;">Motorola Sales Dashboard Analysis — <span class="hover-blue" style="color:inherit; font-size: 16px;">View Repository↗</span></a>
             </h3>
             <p>This interactive Power BI dashboard is specifically built for Motorola to monitor and analyze sales performance across 
               multiple dimensions including city-wise trends, mobile model sales, payment methods, and customer satisfaction. 
@@ -1570,10 +1443,10 @@
       <!-- NETFLIX Data SQL Analysis -->
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry justify-content-end">
-          <a href="https://github.com/rajeevtiwari8055/NETFLIX-Data-SQL-Analysis" class="block-20 zoom-effect" style="background-image: url('images/Netflix\ Data.png'); height: 250px; background-size: cover; background-position: center;"></a>
+          <a href="https://github.com/rajeevtiwari8055/NETFLIX-Data-SQL-Analysis" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/Netflix\ Data.png'); height: 250px; background-size: cover; background-position: center;"></a>
           <div class="text mt-3 float-right d-block">
             <h3 class="heading">
-              <a href="https://github.com/rajeevtiwari8055/NETFLIX-Data-SQL-Analysis">NETFLIX Data SQL Analysis — <span style="color: #007bff; font-size: 16px;">View Repository↗</span></a>
+              <a href="https://github.com/rajeevtiwari8055/NETFLIX-Data-SQL-Analysis" style="color:gray" target="_blank" style="text-decoration: none;">NETFLIX Data SQL Analysis — <span class="hover-blue" style="color:inherit; font-size: 16px;">View Repository↗</span></a>
             </h3>
             <p>Analyzed a fictional NETFLIX dataset using PostgreSQL to uncover insights on movies, TV shows, genres, ratings,
                and countries. Using 15+ SQL queries, the project explored distribution, release trends, and diversity. 
@@ -1586,10 +1459,10 @@
       <!-- Blinkit Grocery Dashboard Analysis -->
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry justify-content-end">
-          <a href="https://github.com/rajeevtiwari8055/Blinkit-Grocery-Analysis" class="block-20 zoom-effect" style="background-image: url('images/Blinkit.webp'); height: 250px; background-size: cover; background-position: center;"></a>
+          <a href="https://github.com/rajeevtiwari8055/Blinkit-Grocery-Analysis" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/Blinkit.webp'); height: 250px; background-size: cover; background-position: center;"></a>
           <div class="text mt-3 float-right d-block">
             <h3 class="heading">
-              <a href="https://github.com/rajeevtiwari8055/Blinkit-Grocery-Analysis">Blinkit Grocery Dashboard Analysis — <span style="color: #007bff; font-size: 16px;">View Repository↗</span></a>
+              <a href="https://github.com/rajeevtiwari8055/Blinkit-Grocery-Analysis" style="color:gray" target="_blank" style="text-decoration: none;">Blinkit Grocery Dashboard Analysis — <span class="hover-blue" style="color:inherit; font-size: 16px;">View Repository↗</span></a>
             </h3>
             <p>This project analyzes Blinkit’s grocery sales, customer satisfaction, and inventory trends using Power BI. 
               With advanced DAX calculations, interactive slicers, and KPI visuals, it highlights top-performing products, 
@@ -1602,10 +1475,10 @@
      <!-- Food Delivery Performance Analytics -->
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry justify-content-end">
-          <a href="https://github.com/rajeevtiwari8055/Food-Delivery-Performance-Analytics" class="block-20 zoom-effect" style="background-image: url('images/Food\ Delivery.webp'); height: 250px; background-size: cover; background-position: center;"></a>
+          <a href="https://github.com/rajeevtiwari8055/Food-Delivery-Performance-Analytics" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/Food\ Delivery.webp'); height: 250px; background-size: cover; background-position: center;"></a>
           <div class="text mt-3 float-right d-block">
             <h3 class="heading">
-              <a href="https://github.com/rajeevtiwari8055/Food-Delivery-Performance-Analytics">Food Delivery Performance Analytics — <span style="color: #007bff; font-size: 16px;">View Repository↗</span></a>
+              <a href="https://github.com/rajeevtiwari8055/Food-Delivery-Performance-Analytics" style="color:gray" target="_blank" style="text-decoration: none;">Food Delivery Performance Analytics — <span class="hover-blue" style="color:inherit; font-size: 16px;">View Repository↗</span></a>
             </h3>
             <p>The Food Delivery Performance Analytics Dashboard is a comprehensive Power BI solution designed to analyze end-to-end 
               food delivery operations. It provides insights into customer behavior, order trends, revenue performance, delivery efficiency, 
@@ -1618,10 +1491,10 @@
       <!-- HSBC Strategic Stakeholder Intelligence -->
       <div class="col-md-4 d-flex ftco-animate">
         <div class="blog-entry justify-content-end">
-          <a href="https://github.com/rajeevtiwari8055/Strategic-Stakeholder-Intelligence" class="block-20 zoom-effect" style="background-image: url('images/TableauBI.png'); height: 250px; background-size: cover; background-position: center;"></a>
+          <a href="https://github.com/rajeevtiwari8055/Strategic-Stakeholder-Intelligence" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/TableauBI.png'); height: 250px; background-size: cover; background-position: center;"></a>
           <div class="text mt-3 float-right d-block">
             <h3 class="heading">
-              <a href="https://github.com/rajeevtiwari8055/Strategic-Stakeholder-Intelligence">HSBC Strategic Stakeholder Intelligence — <span style="color: #007bff; font-size: 16px;">View Repository↗</span></a>
+              <a href="https://github.com/rajeevtiwari8055/Strategic-Stakeholder-Intelligence" style="color:gray" target="_blank" style="text-decoration: none;">HSBC Strategic Stakeholder Intelligence — <span class="hover-blue" style="color:inherit; font-size: 16px;">View Repository↗</span></a>
             </h3>
             <p>This Tableau-based business intelligence solution provides a strategic, real-time view of stakeholder and insurer 
               performance by integrating KPI monitoring, visual analytics, and behavior tracking into one unified dashboard. 
@@ -1638,8 +1511,8 @@
 
 <!-- project section css start -->
 <style>
-  .gradient-indigo-lime {
-    background: linear-gradient(90deg, indigo, lime);
+  .gradient-projects {
+    background: linear-gradient(90deg, #008b8b, #20b2aa);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -1650,6 +1523,12 @@
     font-size: inherit;
     margin-left: 4px;
   }
+
+  /* inherit blue */
+ .hover-blue:hover {
+  color: #1a73e8 !important;
+  text-decoration: underline;
+}
 </style>
 <!-- my project section end -->
 
@@ -1724,7 +1603,7 @@
         <!-- <span class="highlight-gradient">GitHub</span> -->
         </h2>
         <div class="heading">
-          <h4>I love to solve business problems &amp; uncover hidden data stories</h4>
+          <h4 style="color:inherit">I love to solve business problems &amp; uncover hidden data stories</h4>
           <br>
           <p>
             <a href="https://github.com/rajeevtiwari8055?tab=repositories" target="_blank" class="github-gradient-btn">GitHub</a>
@@ -1759,7 +1638,7 @@
 <style>
   /* Shared gradient style for GitHub & LinkedIn */
   .highlight-gradient {
-    background: linear-gradient(90deg, dodgerblue, deepskyblue);
+    background: linear-gradient(90deg, #007bff, dodgerblue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -1767,50 +1646,41 @@
 
   /* Gradient Button: LinkedIn */
   .linkedin-gradient-btn {
-    background: linear-gradient(90deg, aqua, magenta, aqua, magenta);
-    background-size: 200% 100%;
-    background-position: 0% 0%;
-    color: black;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    display: inline-block;
-    transition: background-position 0.5s ease;
-    position: relative;
-    z-index: 2;
-  }
+  text-decoration: none;
+  background: linear-gradient(135deg, #007bff, dodgerblue); 
+  color: black;          
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
 
   .linkedin-gradient-btn:hover {
-    background-position: 100% 0%;
-  }
+  background: linear-gradient(135deg, blue, #007bff);
+  color: inherit;  
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
 
   /* Gradient Button: GitHub */
   .github-gradient-btn {
-    background: linear-gradient(90deg, aqua, magenta, aqua, magenta);
-    background-size: 200% 100%;
-    background-position: 0% 0%;
-    color: black;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    display: inline-block;
-    transition: background-position 0.5s ease;
-    position: relative;
-    z-index: 2;
-  }
-
+  text-decoration: none;
+  background: linear-gradient(135deg, darkviolet, #8a2be2); 
+  color: black;          
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
   .github-gradient-btn:hover {
-    background-position: 100% 0%;
-  }
-
+  background: linear-gradient(135deg, indigo, purple); 
+  color: inherit;  
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
 </style>
 <!-- Projects on github and linkedin end -->
+
 
 <!-- Global Certifications Section start -->
 <section class="ftco-section" id="Certification-section">
@@ -1841,8 +1711,8 @@
           <div class="block-20 zoom-effect" style="background-image: url('images/Access\ Essential.png'); height: 300px; background-size: cover; background-position: center;"></div>
           <div class="text mt-2 d-block">
             <h3 class="heading text-white">
-             <a href="https://www.linkedin.com/learning/certificates/f661499cf92b6fa9056051ee22a69f8300db6cc692398167def251a884648303" target="_blank" style="text-decoration: none;">
-               Microsoft Access Essential Training (Office 2024/LTSC) — <span style="color: #007bff; font-size: 16px;">Show Credential↗</span></a></h3>
+             <a href="https://www.linkedin.com/learning/certificates/f661499cf92b6fa9056051ee22a69f8300db6cc692398167def251a884648303" style="color:gray" target="_blank" style="text-decoration: none;">
+               Microsoft Access Essential Training — <span class="hover-blue" style="color:inherit; font-size: 16px;">Show Credential↗</span></a></h3>
           </div>
         </div>
       </div>
@@ -1853,8 +1723,8 @@
           <div class="block-20 zoom-effect" style="background-image: url('images/Databricks\ SQL.png'); height: 300px; background-size: cover; background-position: center;"></div>
           <div class="text mt-2 d-block">
             <h3 class="heading text-white">
-             <a href="https://simpli-web.app.link/e/koyAhfyBmYb" target="_blank" style="text-decoration: none;">
-               SQL Analytics and BI on Databricks — <span style="color: #007bff; font-size: 16px;">Show Credential↗</span></a></h3>
+             <a href="https://simpli-web.app.link/e/koyAhfyBmYb" style="color:gray" target="_blank" style="text-decoration: none;">
+               SQL Analytics and BI on Databricks — <span class="hover-blue" style="color:inherit; font-size: 16px;">Show Credential↗</span></a></h3>
           </div>
         </div>
       </div>
@@ -1865,8 +1735,8 @@
           <div class="block-20 zoom-effect" style="background-image: url('images/Coursera\ Excel.png'); height: 300px; background-size: cover; background-position: center;"></div>
           <div class="text mt-2 d-block">
             <h3 class="heading text-white">
-             <a href="https://coursera.org/share/2ee50c088cd85c6ad65109682265f466" target="_blank" style="text-decoration: none;">
-               Getting Started with Microsoft Excel — <span style="color: #007bff; font-size: 16px;">Show Credential↗</span></a></h3>
+             <a href="https://coursera.org/share/2ee50c088cd85c6ad65109682265f466" style="color:gray" target="_blank"  style="text-decoration: none;">
+               Getting Started with Microsoft Excel — <span class="hover-blue" style="color:inherit; font-size: 16px;">Show Credential↗</span></a></h3>
           </div>
         </div>
       </div>
@@ -1882,8 +1752,8 @@
           <div class="block-20 zoom-effect" style="background-image: url('images/DA\ PostgreSQL.png'); height: 300px; background-size: cover; background-position: center;"></div>
           <div class="text mt-2 d-block">
             <h3 class="heading text-white">
-             <a href="https://www.linkedin.com/learning/certificates/3801a7f10b05c33617c997a86b03bebccf88f8f87f9300c5db7b45dd2fdf78a7?trk=share_certificate" target="_blank" style="text-decoration: none;">
-               Data Analysis with PostgreSQL — <span style="color: #007bff; font-size: 16px;">Show Credential↗</span></a></h3>
+             <a href="https://www.linkedin.com/learning/certificates/3801a7f10b05c33617c997a86b03bebccf88f8f87f9300c5db7b45dd2fdf78a7?trk=share_certificate" style="color:gray" target="_blank" style="text-decoration: none;">
+               Data Analysis with PostgreSQL — <span class="hover-blue" style="color:inherit; font-size: 16px;">Show Credential↗</span></a></h3>
           </div>
         </div>
       </div>
@@ -1894,8 +1764,8 @@
           <div class="block-20 zoom-effect" style="background-image: url('images/Excel\ Dashboard.png'); height: 300px; background-size: cover; background-position: center;"></div>
           <div class="text mt-2 d-block">
             <h3 class="heading text-white">
-             <a href="https://simpli-web.app.link/e/2KbK36JscYb" target="_blank" style="text-decoration: none;">
-               Excel Dashboard for Beginners — <span style="color: #007bff; font-size: 16px;">Show Credential↗</span></a></h3>
+             <a href="https://simpli-web.app.link/e/2KbK36JscYb" style="color:gray" target="_blank" style="text-decoration: none;">
+               Excel Dashboard for Beginners — <span class="hover-blue" style="color:inherit; font-size: 16px;">Show Credential↗</span></a></h3>
           </div>
         </div>
       </div>
@@ -1906,8 +1776,8 @@
           <div class="block-20 zoom-effect" style="background-image: url('images/Power\ Query\ in\ Excel.png'); height: 300px; background-size: cover; background-position: center;"></div>
           <div class="text mt-2 d-block">
             <h3 class="heading text-white">
-             <a href="https://simpli-web.app.link/e/1hTHLVqBmYb" target="_blank" style="text-decoration: none;">
-               Introduction to Power Query in Excel Basics — <span style="color: #007bff; font-size: 16px;">Show Credential↗</span></a></h3>
+             <a href="https://simpli-web.app.link/e/1hTHLVqBmYb" style="color:gray" target="_blank" style="text-decoration: none;">
+               Introduction to Power Query in Excel Basics — <span class="hover-blue" style="color:inherit; font-size: 16px;">Show Credential↗</span></a></h3>
           </div>
         </div>
       </div>
@@ -1918,8 +1788,8 @@
           <div class="block-20 zoom-effect" style="background-image: url('images/Web\ App\ Development.png'); height: 300px; background-size: cover; background-position: center;"></div>
           <div class="text mt-2 d-block">
             <h3 class="heading text-white">
-             <a href="https://simpli-web.app.link/e/gi5aJjOrqYb" target="_blank" style="text-decoration: none;">
-               Master AI for Web App Development — <span style="color: #007bff; font-size: 16px;">Show Credential↗</span></a></h3>
+             <a href="https://simpli-web.app.link/e/gi5aJjOrqYb" style="color:gray" target="_blank" style="text-decoration: none;">
+               Master AI for Web App Development — <span class="hover-blue" style="color:inherit; font-size: 16px;">Show Credential↗</span></a></h3>
           </div>
         </div>
       </div>
@@ -1930,8 +1800,8 @@
           <div class="block-20 zoom-effect" style="background-image: url('images/PowerBI\ Beginners.png'); height: 300px; background-size: cover; background-position: center;"></div>
           <div class="text mt-2 d-block">
             <h3 class="heading text-white">
-             <a href="https://simpli-web.app.link/e/VLgIKIsleYb" target="_blank" style="text-decoration: none;">
-               Power BI for Beginners — <span style="color: #007bff; font-size: 16px;">Show Credential↗</span></a></h3>
+             <a href="https://simpli-web.app.link/e/VLgIKIsleYb" style="color:gray" target="_blank" style="text-decoration: none;">
+               Power BI for Beginners — <span class="hover-blue" style="color:inherit; font-size: 16px;">Show Credential↗</span></a></h3>
           </div>
         </div>
       </div>
@@ -1942,21 +1812,20 @@
           <div class="block-20 zoom-effect" style="background-image: url('images/Data\ Visualization\ With\ Tableau.png'); height: 300px; background-size: cover; background-position: center;"></div>
           <div class="text mt-2 d-block">
             <h3 class="heading text-white">
-             <a href="https://docs.uniathena.com/prod/course/certificate/348_1763361663_certificate.jpg" target="_blank" style="text-decoration: none;">
-               Basics of Data Visualization With Tableau — <span style="color: #007bff; font-size: 16px;">Show Credential↗</span></a></h3>
+             <a href="https://docs.uniathena.com/prod/course/certificate/348_1763361663_certificate.jpg" style="color:gray" target="_blank" style="text-decoration: none;">
+               Basics of Data Visualization With Tableau — <span class="hover-blue" style="color:inherit; font-size: 16px;">Show Credential↗</span></a></h3>
           </div>
         </div>
       </div>
 
     </div>
-
   </div>
 </section>
 
 <!-- Certification Style -->
 <style>
   .gradient-Certification {
-    background: linear-gradient(90deg, red, mediumspringgreen);
+    background: linear-gradient(90deg, #ff1493, #ff69b4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -1972,6 +1841,12 @@
     transform: scale(1.02);
     transition: transform 0.3s ease-in-out;
   }
+
+  /* inherit blue */
+ .hover-blue:hover {
+  color: #1a73e8 !important;
+  text-decoration: underline;
+}
 </style>
 <!--  Global Certifications Section end -->
 
@@ -2061,7 +1936,7 @@
   <div class="col-md-7 heading-section text-center ftco-animate">
     <h1 class="big big-2">Snake Contribution</h1>
     <h2 class="mb-4">
-      <span class="gradient-indigo-lime">GitHub Contribution</span>
+      <span class="gradient-projects">GitHub Contribution</span>
       <span class="normal-emoji">
       <img src="images/Green Snake.webp" alt="Snake Contribution" style="width:60px">
       </span>
@@ -2083,7 +1958,7 @@
 <section id="github-metrics">
  <div style="text-align:center; margin:40px 0;">
   <a href="https://github.com/rajeevtiwari8055" target="_blank">
-   <img src="https://metrics.lecoq.io/rajeevtiwari8055" alt="GitHub Metrics" style="max-width:100%; height:auto;">
+   <img src="https://metrics.lecoq.io/rajeevtiwari8055" style="color:gray" alt="GitHub Metrics" style="max-width:100%; height:auto;">
   </a>
  </div>
 </section>
@@ -2259,7 +2134,7 @@
             <span class="icon-map-signs"></span>
           </div>
           <h3 class="mb-4 gradient-title">Location</h3>
-          <p><a href="https://maps.app.goo.gl/2R2sVhnxQiUo2A6bA" target="_blank" rel="noopener noreferrer">Prayagraj, India</a>
+          <p><a href="https://maps.app.goo.gl/2R2sVhnxQiUo2A6bA" target="_blank" rel="noopener noreferrer" class="hover-blue" style="color: inherit">Prayagraj, India</a>
 
           <!-- flag logo start-->
           <span>
@@ -2323,9 +2198,7 @@
      </div>
      <h3 class="mb-4 gradient-title">Contact Number</h3>
      <p>
-      <a href="tel:+918102691328" target="_blank" rel="noopener noreferrer">
-        +91 8102691328
-      </a>
+      <a href="tel:+918102691328" target="_blank" rel="noopener noreferrer" class="hover-blue" style="color: inherit">+91 8102691328</a>
      </p>
     </div>
    </div>
@@ -2338,7 +2211,7 @@
          </div>
          <h3 class="mb-4 gradient-title">WhatsApp</h3>
          <p>
-          <a href="https://wa.me/918896250283" target="_blank" rel="noopener noreferrer">+91 8896250283</a>
+          <a href="https://wa.me/918896250283" target="_blank" rel="noopener noreferrer" class="hover-blue" style="color: inherit">+91 8896250283</a>
          </p>
        </div>
       </div>
@@ -2351,7 +2224,7 @@
           </div>
           <h3 class="mb-4 gradient-title">Mail</h3>
           <p><a href="mailto:rajeevtiwari8055@gmail.com?subject=Hi%20Rajeev&body=I%20visited%20your%20website%20and%20wanted%20to%20connect%20with%20you!"
-             target="_blank" rel="noopener noreferrer">rajeevtiwari8055@gmail.com</a></p>
+             target="_blank" rel="noopener noreferrer" class="hover-blue" style="color: inherit">rajeevtiwari8055@gmail.com</a></p>
         </div>
       </div>
 
@@ -2362,7 +2235,7 @@
             <span class="icon-paper-plane"></span>
           </div>
           <h3 class="mb-4 gradient-title">Telegram</h3>
-          <p><a href="https://t.me/rajeevtiwari8055" target="_blank" rel="noopener noreferrer">Let’s Talk</a></p>
+          <p><a href="https://t.me/rajeevtiwari8055" target="_blank" rel="noopener noreferrer" class="hover-blue" style="color: inherit">Let’s Talk</a></p>
         </div>
       </div>
 
@@ -2373,7 +2246,7 @@
             <span class="icon-download"></span>
           </div>
           <h3 class="mb-4 gradient-title">My Resume</h3>
-          <p><a href="images/Rajeev.pdf" target="_blank"  rel="noopener noreferrer" alt="Resume">Download Resume</a></p>
+          <p><a href="images/Rajeev.pdf" target="_blank" rel="noopener noreferrer" alt="Resume" class="hover-blue" style="color: inherit">Download Resume</a></p>
         </div>
       </div>
 
@@ -2385,7 +2258,7 @@
         </div>
        <h3 class="mb-4 gradient-title">Contact Form</h3>
        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfa_OyMfkONeEo0_LF0EMhqmr75jz0mQtelIajCCl6CXuVdpQ/viewform?usp=header" 
-        target="_blank" rel="noopener noreferrer">Fill the Form</a></p>
+        target="_blank" rel="noopener noreferrer" class="hover-blue" style="color: inherit">Fill the Form</a></p>
       </div>
      </div>
 
@@ -2396,7 +2269,7 @@
 <!-- contact me heading and buttons css start -->
 <style>
   .gradient-contact {
-    background: linear-gradient(90deg, cyan, red);
+    background: linear-gradient(90deg, #9932cc, slateblue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -2497,6 +2370,11 @@
     opacity: 0.8;
   }
 
+  /* inherit blue */
+.hover-blue:hover {
+  color: #1a73e8 !important;
+}
+
   /* Gradient for Box Headings */
   .gradient-title {
     background: linear-gradient(90deg, teal, darkcyan);
@@ -2514,7 +2392,7 @@
   <div class="container">
     <div class="row justify-content-center mb-5 pb-3">
       <div class="col-md-7 heading-section text-center ftco-animate">
-        <h1 class="big big-2">Find Me On</h1>
+        <h1 class="big big-2">Find Me</h1>
         <h2 class="mb-4">
           <span class="gradient-findme">Find Me On</span>
           <span class="normal-emoji"><!--🌐--><img src="images/Find me.gif" alt="Certification" style="width:60px"></span>
@@ -2639,7 +2517,7 @@
   }
 
   .gradient-findme {
-    background: linear-gradient(90deg, deeppink, orange);
+    background: linear-gradient(90deg, #0A66C2, dodgerblue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -2732,37 +2610,39 @@
     <div class="row">
       <div class="col-md-12 text-center">
 
-<!-- <p style="font-weight: 300; font-size: 20px; 
-    background: linear-gradient(90deg, purple, orange, red, green, aqua, magenta);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-    margin: 20px 0;">
-    Terms & Conditions | Privacy Policy
-</p> -->
-
-<!-- marquee tag on privacy policy -->
-<marquee direction="left" scrollamount="8">
-  <p style="font-weight: 300; font-size: 20px; 
-      background: linear-gradient(90deg, purple, orange, red, green, aqua, magenta);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-align: center;
-      margin: 20px 0;">
-      Terms & Conditions | Privacy Policy
-  </p>
-</marquee>
-
-<!-- copyright and rights section start -->
-<p style="font-weight: 300; font-size: 20px; background: linear-gradient(90deg, red, orangered, aqua, cyan, deeppink, magenta); 
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; display: inline-block;">
-  <span style="font-size: 20px; font-weight: 300; vertical-align: middle;">©</span> 
-  <script>document.write(new Date().getFullYear());</script> This is Rajeev's website. All rights reserved. | This website is made with
-  <i class="icon-heart color-danger" aria-hidden="true" style="color: red;"></i> by 
-  <a href="https://colorlib.com" target="_blank" style="background: linear-gradient(90deg, purple, orange, red, green, aqua, magenta);
-    -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; font-weight: 600;">OpenAI</a>
+<p class="footer-links">
+  <a href="terms.html" class="footer-link" target="_blank">Terms & Conditions</a> |  
+  <a href="privacy.html" class="footer-link" target="_blank">Privacy Policy</a>
 </p>
-<!-- copyright & my footer section end -->
+
+<style>
+.footer-links {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0;
+
+  background: linear-gradient(90deg, gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  -webkit-text-fill-color: #1a73e8;
+  text-decoration: underline;
+}
+</style>
+<!-- copyright and rights section start -->
+<p style="font-weight: 300; font-size: 20px; background: linear-gradient(90deg, gray); 
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; display: inline-block;">
+  <span style="font-size: 25px; font-weight: 300; vertical-align: middle;">©</span> 
+  <script>document.write(new Date().getFullYear());</script> Rajeev's website | All rights reserved
+</p>
+</footer>
 
 <!-- loader -->
 <div id="ftco-loader" class="show fullscreen">
