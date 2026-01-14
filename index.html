@@ -41,7 +41,7 @@
 
 <style>
 
-/* GALAXY TWINKLING STAR EFFECT */
+/* GALAXY TWINKLING STAR EFFECT
 .stars, .stars2, .stars3 {
   position: fixed;
   top: 0;
@@ -76,7 +76,7 @@
   0% { opacity: 0.3; }
   50% { opacity: 0.9; }
   100% { opacity: 0.3; }
-}
+}  */
   
 /* Top Right Transparent Date-Time */
 .rt-date-time {
@@ -113,7 +113,7 @@
     color: darkcyan;
     background: transparent;
     width: fit-content;
-    font-size: 15px;
+    font-size: 16px;
   }
 
 /* ⭐ Open to Work Button */
@@ -209,7 +209,7 @@
   /* Animation for moving shine effect */
   animation: shine 2s linear infinite;
 
-  /* Ye line shadow deti hai */
+  /* name gradient shadow */
   text-shadow: 0 0 6px rgba(0, 255, 255, 0.6);
 }
 
@@ -648,20 +648,20 @@
           <div class="overlay">
             <div class="about-img w-100 h-100">
               <br>
-              <!-- <img src="images/rajeevprofile.jpg" class="img-fluid rounded b-shadow-a" alt="Rajeev" style="width: 100%; height: 100%; object-fit: cover;"> -->
-              <img src="images/rajeevprofile.jpg" class="img-fluid rounded b-shadow-a" alt="Rajeev" style="width: 100%; 
-                        height: 100%; object-fit: cover; border: 2px solid teal; box-shadow: 0 0 5px #00fff2;">
+              <!-- <img src="images/rajeevprofile.jpg" class="img-fluid rounded b-shadow-a" alt="Rajeev" style="width: 100%; height: 100%; object-fit: cover;"> 
+              <img src="images/rajeevprofile.jpg" class="img-fluid rounded b-shadow-a" alt="Rajeev" style="width: 100%; height: 100%; object-fit: cover; border: 2px solid teal; box-shadow: 0 0 5px #00fff2;"> -->
+              <img src="images/rajeevprofile.jpg" class="img-fluid rounded b-shadow-a" alt="Rajeev" style="width: 100%; height: 100%; object-fit: cover; transition: 0.3s;"
+                  onmouseover="this.style.border='2px solid teal'; this.style.boxShadow='0 0 2px #00fff2';" onmouseout="this.style.border='none'; this.style.boxShadow='none';">
+
               <!-- ⭐ Open to Work Button -->
               <button class="open-work-floating">Open to Work</button>
             </div>
           </div>
         </div>
       </div>
-<br>
       <!-- Right Side: About Info + Skills -->
       <div class="col-md-6 col-lg-7 d-flex align-items-center">
         <div class="about-info w-100">
-<br>
           <!-- short intro & About Info -->
           <p><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Name :</span><span> Rajeev Tiwari</span></p>
           <p><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Learning Phase :</span><span> Actively Building Skills in Python</span></p>
@@ -721,7 +721,7 @@
 
 <p><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Email :</span>
   <span>
-    <a href="mailto:rajeevtiwari8055@gmail.com?subject=Hi%20Rajeev&body=I%20visited%20your%20website%20and%20wanted%20to%20connect%20with%20you!" class="email-link">rajeevtiwari8055@gmail.com</a>
+    <a href="mailto:rajeevtiwari8055@gmail.com?subject=Hi%20Rajeev&body=I%20visited%20your%20website%20and%20wanted%20to%20connect%20with%20you!" class="email-link">rajeevtiwari8055@gmail.com↗</a>
   </span>
 </p>
 
@@ -741,8 +741,8 @@
     
 <!-- Skill Summary Container -->
 <div style="font-family: Arial, sans-serif; color: inherit; line-height: 1.6; font-size: 16px; max-width: 700px; transition: color 0.3s; margin-top: 20px;" 
-  onmouseover="this.style.color='teal'"
-  onmouseout="this.style.color='inherit'">
+  onmouseover="this.style.color='teal'" onmouseout="this.style.color='inherit'">
+  
   <p style="margin-bottom: 8px; font-size: 16px;">
      I'm a passionate data enthusiast, currently an expert in Microsoft 365 &amp; SQL, Advanced Excel, including Excel MIS, Power Query, Power Pivot, Power BI, Tableau &amp; Microsoft Access.
   </p>
@@ -758,13 +758,14 @@
   
   <p style="color: #2e8b57; font-style: italic; font-weight: 500; font-size: 20px; font-family: cursive; margin-top: 0;">
     🌱 Always learning, always exploring!
-     <a href="https://www.linkedin.com/in/rajeevtiwari8055" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20" height="20"></a>
+    <span><a href="https://www.linkedin.com/in/rajeevtiwari8055" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20" height="20"></a>
      <a href="https://github.com/rajeevtiwari8055" target="_blank"><img src="images/GitViolet.svg" alt="GitHub" width="25" height="22"></a>
+    </span> 
   </p>
 </div>
        <!-- Detailed Skills -->
          <ul class="about-info mt-4 px-md-0 px-2">
-            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Founder:</span><span><a href="https://www.linkedin.com/company/rajeev-dataverse/" class="email-link" target="_blank" class="dataverse-link">Rajeev Dataverse</a></span></li>
+            <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Founder:</span><span><a href="https://www.linkedin.com/company/rajeev-dataverse/" class="email-link" target="_blank" class="dataverse-link">Rajeev Dataverse↗</a></span></li>
             <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Domain:</span><span>Business Intelligence, Data Analytics, MIS Reporting</span></li>
             <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Automation:</span><span>n8n Automation, Workflows, AI Agents & AI-Assisted Analytics</span></li>
             <li class="d-flex"><span style="font-style: italic; font-weight: 600; background: linear-gradient(45deg, teal, darkcyan); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: inline-block;">Data Tools:</span><span>SQL, Advanced Excel, Power BI, Tableau, Microsoft 365 & Access</span></li>
@@ -1039,7 +1040,7 @@
           <span class="date" style="color:white">2024 - Present</span>
           <h2 style="color:inherit">Data Analytics: Project Experience</h2>
           <span class="position">
-          <a href="https://www.linkedin.com/in/rajeevtiwari8055/details/projects/" target="_blank" class="hover-blue" style="color:inherit; font-size: 1rem;">Personal Projects</a>
+          <a href="https://www.linkedin.com/in/rajeevtiwari8055/details/projects/" target="_blank" class="hover-blue" style="color:inherit; font-size: 1rem;">Personal Projects↗</a>
         </span>
           <p class="mt-4">Executed data analytics projects with cleaning, visualization, dashboards & reporting using Excel, Power Query, SQL, Power BI & 
             Tableau, while creating web projects.
@@ -1060,7 +1061,7 @@
          <span class="date" style="color:white">2026 - Present</span>
           <h2 style="color:inherit">Founder & Content Creator</h2>
           <span class="position">
-           <a href="https://www.linkedin.com/company/rajeev-dataverse/" target="_blank" class="hover-blue" style="color:inherit; font-size: 1rem;">Rajeev Dataverse</a>
+           <a href="https://www.linkedin.com/company/rajeev-dataverse/" target="_blank" class="hover-blue" style="color:inherit; font-size: 1rem;">Rajeev Dataverse↗</a>
           </span>
           <p class="mt-4">Founder of a self-initiated learning platform on Data Analytics, Automation & BI. 
             I create and share content while building and engaging a community of learners.
@@ -1207,11 +1208,25 @@
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
   }
 
-  .gradient-border-box {
-    border: 3px solid;
-    border-image: linear-gradient(45deg, gray, grey);
-    border-image-slice: 1;
-  }
+.gradient-border-box {
+  position: relative;
+  border-radius: 12px;
+}
+
+.gradient-border-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: 12px;
+  background: linear-gradient(45deg, gray, black);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+}
 
   .gradient-heading-ma {
     background: linear-gradient(90deg, mediumslateblue, teal);
@@ -1226,7 +1241,7 @@
   }
 
   .gradient-heading-hs {
-    background: linear-gradient(90deg, teal, cyan);
+    background: linear-gradient(90deg, cyan, teal);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -1681,7 +1696,6 @@
 </style>
 <!-- Projects on github and linkedin end -->
 
-
 <!-- Global Certifications Section start -->
 <section class="ftco-section" id="Certification-section">
   <div class="container">
@@ -1924,6 +1938,7 @@
 }
 
 .cert-btn:hover {
+  color:inherit;
   transform: scale(1.05);
   background-position: 100% 0%;
 }
@@ -1948,9 +1963,8 @@
 <!-- Snake Animation Contribution Graph -->
 <div style="text-align:center; margin-top:40px;">
   <a href="https://github.com/rajeevtiwari8055" target="_blank" style="display:inline-block;">
-    <img src="https://raw.githubusercontent.com/rajeevtiwari8055/rajeevtiwari8055/output/github-snake-dark.svg"
-         alt="GitHub Snake Animation"
-         style="max-width: 100%; height: auto; border: none;">
+    <img src="https://raw.githubusercontent.com/rajeevtiwari8055/rajeevtiwari8055/output/github-snake-dark.svg" alt="GitHub Snake Animation" 
+    style="max-width: 100%; color:gray; height: auto; border: none;">
   </a>
 </div>
 
@@ -1966,18 +1980,19 @@
 <!-- Buy Me a Coffee -->
 <div align="center" style="margin-top:20px;">
   <a href="https://buymeacoffee.com/rajeevtiwari8055" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" alt="Buy Me A Coffee">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="45" alt="Buy Me A Coffee">
   </a>
 </div>
 
+<br>
 <!-- Achievements & Stats Start -->
-<!-- <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
       <div class="container">
        <div class="row d-md-flex align-items-center">
           <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
             <div class="block-18">
               <div class="text">
-                <strong class="number" data-number="27">0</strong>
+                <strong class="number" data-number="35">0</strong>
                 <span class="gradient-text">Projects Completed</span>
               </div>
             </div>
@@ -1985,7 +2000,7 @@
           <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
             <div class="block-18">
               <div class="text">
-                <strong class="number" data-number="25">0</strong>
+                <strong class="number" data-number="40">0</strong>
                 <span class="gradient-text">Certifications</span>
               </div>
             </div>
@@ -1993,7 +2008,7 @@
           <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
             <div class="block-18">
               <div class="text">
-                <strong class="number" data-number="300">0</strong>
+                <strong class="number" data-number="500">0</strong>
                 <span class="gradient-text">LinkedIn Posts</span>
               </div>
             </div>
@@ -2001,16 +2016,16 @@
           <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
             <div class="block-18">
               <div class="text">
-                <strong class="number" data-number="2000">0</strong>
+                <strong class="number" data-number="2500">0</strong>
                 <span class="gradient-text">GitHub commits</span>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section> 
 
-<!-- <style>
+<style>
   /* ===============================
    REMOVE FTCO BLACK / GREY BACKGROUNDS
 ================================ */
@@ -2054,7 +2069,7 @@
   inset: 0;
   padding: 1px;                 /* thin border */
   border-radius: 12px;
-  background: linear-gradient(135deg, aqua, red);
+  background: linear-gradient(135deg, grey, black);
 
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box,
@@ -2069,7 +2084,7 @@
 .block-18 .number {
   font-size: 40px;
   font-weight: 500;
-  color: #000;
+  color: gray !important;
 }
 
 .block-18 span {
@@ -2077,7 +2092,7 @@
   margin-top: 8px;
   font-size: 14px;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  text-transform: none; /* uppercase */
   color: #555;
 }
 
@@ -2086,16 +2101,16 @@
 ================================ */
 .gradient-text {
   font-size: 26px;
-  font-weight: 500;    
+  font-weight: 400;    
   
   /* Gradient color */
-  background: linear-gradient(135deg, mediumslateblue, aqua);
+  background: linear-gradient(135deg, teal, darkcyan);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
 }
-</style> -->
+</style>
 <!-- Achievements & Stats end -->
 
 <!-- Contact Me Section start-->
@@ -2285,6 +2300,7 @@
   .box h3 {
     font-size: 18px;
     font-weight: 600;
+     text-transform: none !important; 
   }
 
   .box p a {
@@ -2357,7 +2373,6 @@
 
   .icon-file-text {
     color: #673AB7;
-;
   }
 
   .icon-file-text:hover {
