@@ -44,6 +44,49 @@
 
 <style>
 
+    /* ===============================
+ NEON SANKEY TOP SECTION
+================================ */
+#neon-flow-top{
+  width:100%;
+  background:transparent;   /* very dark black */
+  padding:40px 0;
+  overflow:hidden;
+}
+
+#neon-flow-top svg{
+  width:100%;
+  height:auto;
+}
+
+/* Text */
+#neon-flow-top .label{
+  fill:#cfd2ff;
+  font-size:14px;
+  letter-spacing:1px;
+  opacity:0.9;
+}
+
+#neon-flow-top .value{
+  fill:gray;
+  font-size:14px;
+  font-weight:400;
+}
+
+/* Bars */
+#neon-flow-top .bar{
+  filter:url(#glow);
+}
+
+/* Flow lines */
+#neon-flow-top .flow{
+  fill:none;
+  stroke-width:10;
+  stroke-linecap:round;
+  filter:url(#glow);
+  opacity:0.9;
+}
+
 /* GALAXY TWINKLING STAR EFFECT
 .stars, .stars2, .stars3 {
   position: fixed;
@@ -563,6 +606,90 @@
 </section>
 <!-- Hero Section End -->
 <!-- front page start -->
+
+<!-- ===============================
+ NEON SANKEY FLOW (TOP)
+================================ -->
+<section id="neon-flow-top">
+
+<svg viewBox="0 0 1500 420" xmlns="http://www.w3.org/2000/svg">
+
+<!-- ===== DEFINITIONS ===== -->
+<defs>
+  <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#9d5cff"/>
+    <stop offset="50%" stop-color="#6fa8ff"/>
+    <stop offset="100%" stop-color="#3fffdc"/>
+  </linearGradient>
+
+  <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#3fffdc"/>
+    <stop offset="100%" stop-color="#ffd166"/>
+  </linearGradient>
+
+  <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ffd166"/>
+    <stop offset="100%" stop-color="#ff5ce8"/>
+  </linearGradient>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+
+<!-- FLOWS -->
+<g>
+  <path d="M110 220 C 380 150, 520 120, 750 120" stroke="url(#g1)" class="flow"/>
+  <path d="M110 220 C 380 220, 520 200, 750 200" stroke="url(#g1)" class="flow"/>
+  <path d="M110 220 C 380 290, 520 290, 750 280" stroke="url(#g1)" class="flow"/>
+
+  <path d="M760 120 C 980 150, 1150 170, 1350 160" stroke="url(#g2)" class="flow"/>
+  <path d="M760 200 C 980 220, 1150 250, 1350 250" stroke="url(#g3)" class="flow"/>
+  <path d="M760 280 C 980 260, 1150 210, 1350 190" stroke="url(#g2)" class="flow"/>
+</g>
+
+<!-- LEFT -->
+<g>
+  <rect x="90" y="190" width="10" height="60" rx="5" fill="#b26cff" class="bar"/>
+  <text x="115" y="190" class="label">Skill Foundation</text>
+  <text x="115" y="212" class="value">8+ Skills • Strong Base</text>
+</g>
+
+<!-- CENTER -->
+<g>
+  <rect x="740" y="90" width="10" height="60" rx="5" fill="#3fffdc" class="bar"/>
+  <text x="765" y="90" class="label">Data Analysis</text>
+  <text x="765" y="112" class="value">20+ Datasets • Analyzed</text>
+
+  <rect x="740" y="170" width="10" height="60" rx="5" fill="#3fffdc" class="bar"/>
+  <text x="765" y="170" class="label">Advance Excel</text>
+  <text x="765" y="192" class="value">10+ Real-world Models • MIS Ready</text>
+
+  <rect x="740" y="250" width="10" height="60" rx="5" fill="#3fffdc" class="bar"/>
+  <text x="765" y="250" class="label">Power BI</text>
+  <text x="765" y="272" class="value">5+ Dashboards • Live</text>
+</g>
+
+<!-- RIGHT -->
+<g>
+  <rect x="1340" y="140" width="10" height="60" rx="5" fill="#ff5ce8" class="bar"/>
+  <text x="1365" y="140" class="label">Projects</text>
+  <text x="1365" y="162" class="value">35+ Projects</text>
+
+  <rect x="1340" y="230" width="10" height="60" rx="5" fill="#ff5ce8" class="bar"/>
+  <text x="1365" y="230" class="label">Impact</text>
+  <text x="1365" y="252" class="value">High Impact</text>
+</g>
+
+</svg>
+</section>
+<!-- ===============================
+ NEON SANKEY FLOW (TOP)
+================================ -->
 
 <h2>
   <span class="gradient-heading">Aspiring Data Analyst</span>
