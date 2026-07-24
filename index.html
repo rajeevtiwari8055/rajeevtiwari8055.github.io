@@ -2613,37 +2613,17 @@
 }
 
 /* ===========================
-   Mobile View (<=768px)
+   Mobile View
 =========================== */
+/* Hide Thanks Border & GIF on Mobile */
 @media (max-width:768px){
 
-    .linkedin-wrapper{
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        justify-content: center !important;
-        gap: 20px;
-    }
-
-    /* LinkedIn Card */
-    .linkedin-wrapper .badge-base{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    /* Thanks GIF */
-    .thanks-border{
-        margin-top: 15px;
-    }
-
+    .thanks-border,
     .thanks-gif{
-        width: 220px;
-        max-width: 90%;
-        height: auto;
+        display: none !important;
     }
 
-}
+}      
 </style>
 
 <br>
