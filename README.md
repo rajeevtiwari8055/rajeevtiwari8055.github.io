@@ -233,12 +233,12 @@ Thanks for exploring! I look forward to your feedback, support, and future colla
 
 *Step-by-step design, code-in-action, layout adjustments, and live structure setup.*
 
-![Building the Website – Process Preview](Setting.gif)
+![Building the Website – Process Preview](images/Setting.gif)
 
 **🌐 Website — Ready to Launch**
 
 *Fully designed interface with smooth interactions and final live preview.*
 
-![Final Website – Live Preview](HTML%20CSS.gif)
+![Final Website – Live Preview](images/HTML%20CSS.gif)
 
 ---
